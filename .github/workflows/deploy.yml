@@ -15,4 +15,4 @@ jobs:
       - name: Deploy
         run: |
           az login -u ${{ secrets.AZURE_USERNAME }} -p ${{ secrets.AZURE_PASSWORD }} --tenant ${{ secrets.AZURE_TENANT_ID }}
-          az webapp up --name multi-agent-Agentic-AI-RG --resource-group Agentic-AI-RG
+          az webapp up --name multi-agent-1700890 --resource-group Agentic-AI-RG
